@@ -1,0 +1,69 @@
+{
+  "items": [
+    {
+      "id": "demo1",
+      "name": "Ryzen 5 5600",
+      "category": "CPU",
+      "cost": 100,
+      "quantity": 2,
+      "condition": "Used"
+    },
+    {
+      "id": "demo2",
+      "name": "GeForce RTX 3070",
+      "category": "GPU",
+      "cost": 300,
+      "quantity": 2,
+      "condition": "Used"
+    },
+    {
+      "id": "demo3",
+      "name": "B550 Motherboard",
+      "category": "Motherboard",
+      "cost": 85,
+      "quantity": 2,
+      "condition": "Used"
+    },
+    {
+      "id": "demo4",
+      "name": "32GB DDR4 RAM",
+      "category": "RAM",
+      "cost": 45,
+      "quantity": 3,
+      "condition": "Used"
+    },
+    {
+      "id": "demo5",
+      "name": "1TB NVMe SSD",
+      "category": "Storage",
+      "cost": 50,
+      "quantity": 3,
+      "condition": "New"
+    },
+    {
+      "id": "demo6",
+      "name": "650W 80+ Gold PSU",
+      "category": "PSU",
+      "cost": 65,
+      "quantity": 2,
+      "condition": "Used"
+    },
+    {
+      "id": "demo7",
+      "name": "Mid-tower airflow case",
+      "category": "Case",
+      "cost": 55,
+      "quantity": 2,
+      "condition": "Used"
+    },
+    {
+      "id": "demo8",
+      "name": "Tower air cooler",
+      "category": "Cooler",
+      "cost": 25,
+      "quantity": 2,
+      "condition": "New"
+    }
+  ],
+  "builds": []
+}

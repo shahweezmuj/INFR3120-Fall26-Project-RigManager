@@ -1,0 +1,8 @@
+{
+  "name": "rigmanager",
+  "version": "1.0.0",
+  "description": "PC inventory and build management first release",
+  "main": "app.js",
+  "scripts": {"start": "node app.js"},
+  "dependencies": {"ejs": "^3.1.10", "express": "^4.21.2"}
+}

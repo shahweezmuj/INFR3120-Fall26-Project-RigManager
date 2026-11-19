@@ -1,0 +1,17 @@
+:root{--bg:#10151d;--panel:#192330;--line:#2b3949;--orange:#ff7a24;--muted:#9ba9b8}
+body{background:var(--bg);color:#eef3f8;font-family:Arial,sans-serif}
+.navbar{background:#0b1017;border-bottom:1px solid var(--line)}.navbar-brand{font-weight:800}.nav-link{color:#c7d0da!important}
+a{color:#ff9a58}.hero{background:linear-gradient(120deg,#1b2939,#17202b);border:1px solid var(--line);border-radius:18px}
+.hero-logo{width:min(100%,210px);filter:drop-shadow(0 12px 22px #0008)}.eyebrow{color:var(--orange);font-size:.72rem;font-weight:800;letter-spacing:2px}
+.text-secondary{color:var(--muted)!important}.btn-orange{background:var(--orange);border-color:var(--orange);color:#171717;font-weight:700}
+.btn-orange:hover{background:#ff914d;border-color:#ff914d;color:#111}.btn-outline-light{border-color:#536273}
+.panel,.stat-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px}
+.stat-card{height:100%;display:flex;flex-direction:column;gap:8px}.stat-card span{color:var(--muted);font-size:.88rem}.stat-card strong{font-size:1.65rem}
+.section-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:20px}h2{font-size:1.35rem;margin:4px 0 0}
+.form-label{color:#d8e0e8;font-weight:600}.form-control,.form-select{background:#101923;border-color:#3a495b;color:#eef3f8}
+.form-control:focus,.form-select:focus{background:#101923;color:#fff;border-color:var(--orange);box-shadow:0 0 0 .2rem #ff7a242c}
+.form-select option{background:#101923}.table{color:#eaf0f5;--bs-table-bg:transparent;--bs-table-color:#eaf0f5;--bs-table-border-color:var(--line)}
+.table thead th{color:#9ba9b8;font-size:.78rem;text-transform:uppercase;letter-spacing:.7px}
+.category-pill{background:#26384a;border-radius:20px;padding:4px 9px;font-size:.8rem}.profit{color:#5ee0a0!important}.loss{color:#ff7777!important}
+.back-link{text-decoration:none}.listing-box{min-height:250px;line-height:1.6}footer{border-top:1px solid var(--line);margin-top:32px}
+@media(max-width:600px){.section-heading{align-items:flex-start;flex-direction:column}.hero{padding:24px!important}}
