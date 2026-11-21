@@ -5,7 +5,7 @@
       "name": "Ryzen 5 5600",
       "category": "CPU",
       "cost": 100,
-      "quantity": 2,
+      "quantity": 1,
       "condition": "Used"
     },
     {
@@ -13,7 +13,7 @@
       "name": "GeForce RTX 3070",
       "category": "GPU",
       "cost": 300,
-      "quantity": 2,
+      "quantity": 1,
       "condition": "Used"
     },
     {
@@ -21,7 +21,7 @@
       "name": "B550 Motherboard",
       "category": "Motherboard",
       "cost": 85,
-      "quantity": 2,
+      "quantity": 1,
       "condition": "Used"
     },
     {
@@ -29,7 +29,7 @@
       "name": "32GB DDR4 RAM",
       "category": "RAM",
       "cost": 45,
-      "quantity": 3,
+      "quantity": 2,
       "condition": "Used"
     },
     {
@@ -37,7 +37,7 @@
       "name": "1TB NVMe SSD",
       "category": "Storage",
       "cost": 50,
-      "quantity": 3,
+      "quantity": 2,
       "condition": "New"
     },
     {
@@ -45,7 +45,7 @@
       "name": "650W 80+ Gold PSU",
       "category": "PSU",
       "cost": 65,
-      "quantity": 2,
+      "quantity": 1,
       "condition": "Used"
     },
     {
@@ -53,7 +53,7 @@
       "name": "Mid-tower airflow case",
       "category": "Case",
       "cost": 55,
-      "quantity": 2,
+      "quantity": 1,
       "condition": "Used"
     },
     {
@@ -61,9 +61,60 @@
       "name": "Tower air cooler",
       "category": "Cooler",
       "cost": 25,
-      "quantity": 2,
+      "quantity": 1,
       "condition": "New"
     }
   ],
-  "builds": []
+  "builds": [
+    {
+      "id": "1795226794558",
+      "name": "test",
+      "parts": [
+        {
+          "name": "Ryzen 5 5600",
+          "category": "CPU",
+          "cost": 100
+        },
+        {
+          "name": "GeForce RTX 3070",
+          "category": "GPU",
+          "cost": 300
+        },
+        {
+          "name": "B550 Motherboard",
+          "category": "Motherboard",
+          "cost": 85
+        },
+        {
+          "name": "32GB DDR4 RAM",
+          "category": "RAM",
+          "cost": 45
+        },
+        {
+          "name": "1TB NVMe SSD",
+          "category": "Storage",
+          "cost": 50
+        },
+        {
+          "name": "650W 80+ Gold PSU",
+          "category": "PSU",
+          "cost": 65
+        },
+        {
+          "name": "Mid-tower airflow case",
+          "category": "Case",
+          "cost": 55
+        },
+        {
+          "name": "Tower air cooler",
+          "category": "Cooler",
+          "cost": 25
+        }
+      ],
+      "cost": 725,
+      "askingPrice": 780,
+      "profit": 55,
+      "margin": 7.1
+    }
+  ]
 }
